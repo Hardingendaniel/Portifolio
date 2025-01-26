@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: slategray;
+}
+
+.text {
+  width: 300px;
+}
+
+
+.linkdiv {
+  display: flex;
+  justify-content: center;
+}
+.linkpicture {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+
+.pic-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+.picture {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.picture2 {
+  margin-left: 20px;
+  border-radius: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+
+
+.qualifications {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills2 {
+  width: 200px;
+  height: 200px;
+}
