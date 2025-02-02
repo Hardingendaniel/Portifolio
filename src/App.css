@@ -8,6 +8,15 @@
   width: 300px;
 }
 
+.data-student {
+  font-size: medium;
+  color: #196335 ;
+}
+
+.person-text {
+  font-size: large;
+}
+
 
 .linkdiv {
   display: flex;
@@ -29,7 +38,7 @@
 
 
 .picture {
-  border-radius: 20px;
+  border-radius: 50%;
   height: 300px;
   width: 300px;
 }
@@ -37,25 +46,45 @@
 .picture2 {
   margin-left: 20px;
   border-radius: 20px;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
 }
 
 
 
 .qualifications {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  margin-right: 20px;
-  margin-left: 20px;
+  display: grid;
+  column-gap: 50px;
 }
 
 .skills {
   text-align: center;
+  color: #196335 ;;
 }
 
 .skills2 {
   width: 200px;
   height: 200px;
+}
+
+.javascript {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.java{
+  grid-row: 1;
+  grid-column: 3;
+}
+
+
+
+.azure {
+  grid-row-start: 2;
+  
+}
+
+.inner {
+  width: 200px;
 }
