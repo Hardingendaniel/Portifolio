@@ -2,25 +2,46 @@
     display: flex;
     justify-content: center;
     background-color: slategray;
+    height: 95vh;
 }
 
 .container-contact {
+    border-radius: 25px;
+    background-color: #466754;
+    ;
     margin-top: 20px;
     width: 80%;
     border: 1px solid black;
-    height: 90vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.personal-info {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 
-
-.personal-paramters{
+.personal-object {
     display: flex;
     flex-direction: row;
 }
 
+.personal-paramters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .person-text {
     margin-right: 20px;
+}
+
+.linkdiv-contact {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
 }
