@@ -1,12 +1,13 @@
-.content {
+.content-about {
+    display: flex;
+    justify-content: center;
     background-color: slategray;
-    margin-top: 0;
 }
 
 .innhold{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-around;;
 }
 
 .Text {
@@ -22,6 +23,7 @@
     border: 1px solid black;
     border-radius: 25px;
     background-color: #466754 ;
+    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -33,6 +35,7 @@
     height: 300px;
     width: 300px;
     border-radius: 25px;
+    margin-right: 20px;
     border: 1px solid black;
     background-color: #466754 ;
 }
@@ -41,6 +44,16 @@
     margin-top: 10px;
     text-align: center;
     color: blanchedalmond;
+}
+
+.kort-tekst2 {
+    margin-top: 10px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.kort-tekst2:hover {
+    color: black;
 }
 
 
@@ -83,6 +96,7 @@
     background-color: slategray;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .button-reset {

@@ -40,7 +40,8 @@ const Card = ({ frontContent, backContent }) => {
 const Information = () => {
   const events = useRef();
   return (
-    <div className='content'>
+    <div className="content-about">
+    <div className="ni">
       <h1 className='Text'>Hobbyer</h1>
       <div className="innhold">
         <Card
@@ -64,7 +65,7 @@ const Information = () => {
                   behavior: 'smooth'
                 });
               }}>
-                <text className="kort-tekst">Fullført NTNUI Backyard Ultra</text>
+                <text onmouseover="this.style.color='red';" onmouseout="this.style.color='black';" className="kort-tekst2">Fullført NTNUI Backyard Ultra</text>
               </button>
               <text className="kort-tekst">37:11 personlig rekord 10 km</text>
               <text className="kort-tekst">Digger Strava</text>
@@ -160,6 +161,8 @@ const Information = () => {
           });
         }}>til toppen</button>
       </div>
+    </div>
+
     </div>
 
   );
