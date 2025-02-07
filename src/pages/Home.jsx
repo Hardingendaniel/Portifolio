@@ -14,9 +14,9 @@ import '../App.css';
 
 const Home = () => {
 
-    function showSpoiler(element) {
+    function showAbouts(element) {
         var innerDiv = element.nextElementSibling
-        if (innerDiv.style.display == "none")
+        if (innerDiv.style.display === "none")
             innerDiv.style.display = "";
         else
         innerDiv.style.display = "none";
@@ -51,35 +51,35 @@ const Home = () => {
                     <div className='qualifications'>
                         <div className='javascript'>
                             <p>Javascript</p>
-                            <img onClick={(e) => showSpoiler(e.target)} src={js} alt='Personal' className='picture2' />
+                            <img onClick={(e) => showAbouts(e.target)} src={js} alt='Personal' className='picture2' />
                             <div className="inner" style={{display:'none'}}>
                                 Experience in the web development course
                             </div>
                         </div>
                         <div className='java'>
                             <p>Java</p>
-                            <img onClick={(e) => showSpoiler(e.target)} src={java} alt='Personal' className='picture2' />
+                            <img onClick={(e) => showAbouts(e.target)} src={java} alt='Personal' className='picture2' />
                             <div className="inner" style={{display:'none'}}>
                                 Experience in programming 1 and 2 subject
                             </div>
                         </div>
                         <div className='skills2'>
                             <p>React</p>
-                            <img onClick={(e) => showSpoiler(e.target)} src={react} alt='Personal' className='picture2' />
+                            <img onClick={(e) => showAbouts(e.target)} src={react} alt='Personal' className='picture2' />
                             <div className="inner" style={{display:'none'}}>
                             Some experience in react in web dev
                             </div>
                         </div>
                         <div className='azure'>
                             <p>Azure</p>
-                            <img onClick={(e) => showSpoiler(e.target)} src={azure} alt='Personal' className='picture2' />
+                            <img onClick={(e) => showAbouts(e.target)} src={azure} alt='Personal' className='picture2' />
                             <div className="inner" style={{display:'none'}}>
                                 Some experience through CI/CD in administrasjon of cloud services subject
                             </div>
                         </div>
                         <div className='skills2'>
                             <p>Dart</p>
-                            <img onClick={(e) => showSpoiler(e.target)} src={dart} alt='Personal' className='picture2' />
+                            <img onClick={(e) => showAbouts(e.target)} src={dart} alt='Personal' className='picture2' />
                             <div className="inner" style={{display:'none'}}>
                                 Made a movierater app with dart and flutter and google firbase
                             </div>
@@ -87,7 +87,7 @@ const Home = () => {
 
                         <div className='skills2'>
                             <p>HTML/CSS</p>
-                            <img onClick={(e) => showSpoiler(e.target)} src={html} alt='Personal' className='picture2' />
+                            <img onClick={(e) => showAbouts(e.target)} src={html} alt='Personal' className='picture2' />
                             <div className="inner" style={{display:'none'}}>
                             Experience in the web development course
                             </div>

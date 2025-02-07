@@ -49,11 +49,11 @@
 .kort-tekst2 {
     margin-top: 10px;
     text-align: center;
-    color: blanchedalmond;
+    color: black;
 }
 
 .kort-tekst2:hover {
-    color: black;
+    color: blanchedalmond;
 }
 
 

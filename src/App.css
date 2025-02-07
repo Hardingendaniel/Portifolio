@@ -51,9 +51,12 @@
   cursor: pointer;
 }
 
-
+.skillset {
+  border-top: 1px solid black;
+}
 
 .qualifications {
+  
   display: grid;
   column-gap: 50px;
 }
